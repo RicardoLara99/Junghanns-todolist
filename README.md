@@ -24,9 +24,6 @@ cd tu-repositorio
 
 <p>Asegúrate de configurar tu conexión a la base de datos y cualquier otra variable de entorno requerida en el archivo</p>
 
-<pre><code>cd nombre-de-carpeta-proyecto
-composer install
-</code></pre>
 
 
 <h2>Ejecución</h2>
