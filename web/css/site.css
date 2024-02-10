@@ -97,3 +97,7 @@ a.desc:after {
     align-items: center;
     justify-content: center;
 }
+
+.is-complete td {
+    background-color: var(--bs-success-border-subtle)
+}

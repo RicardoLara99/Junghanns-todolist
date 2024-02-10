@@ -47,7 +47,10 @@ composer install
 
 
 
-
+<h2>Uso</h2>
+<p> 
+ Podrás crear, edit y eliminar tareas. Pero para ello sera necesario que inicies sesión o te registres. Solo podrás acceder a estas funciones con una cuenta, la base de datos ya cuenta con varios usuarios donde todas las CONTRASEÑAS SON 123. 
+</p>
 
 <div>
     <p><strong>Objetivo:</strong></p>

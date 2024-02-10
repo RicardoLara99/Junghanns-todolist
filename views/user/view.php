@@ -10,6 +10,7 @@ use yii\helpers\Url;
 /** @var app\models\Users $users */
 
 $this->title = $model->username;
+$this->registerCssFile("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 ?>
 <div class="todos-view">
    
@@ -65,6 +66,9 @@ $this->title = $model->username;
                 ],
             ],
         ],
+        'rowOptions' => function($model, $key, $index, $grid) {
+            return ['class' => $model->isComplete == 1 ? 'is-complete' : ''];
+        },
         ]);
     ?>
 </div>

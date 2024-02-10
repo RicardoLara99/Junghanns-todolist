@@ -73,6 +73,9 @@ $this->registerCssFile("https://use.fontawesome.com/releases/v5.15.4/css/all.css
             ],
         ],
     ],
+    'rowOptions' => function($model, $key, $index, $grid) {
+        return ['class' => $model->isComplete == 1 ? 'is-complete' : ''];
+    },
 ]); ?>
 
 
