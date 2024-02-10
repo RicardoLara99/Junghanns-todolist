@@ -1,3 +1,76 @@
+# Prueba tecnica Junghann. To-do list
+
+<h2>Requisitos Previos</h2>
+
+<p>Asegúrate de tener instalado PHP y <a href="https://getcomposer.org/">Composer</a> antes de continuar.</p>
+
+<h2>Instalación</h2>
+
+<p>Primero, clona el repositorio de GitHub en tu máquina local usando:</p>
+
+<pre><code>git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+</code></pre>
+
+<p>Luego, instala todas las dependencias del proyecto con Composer:</p>
+
+<pre><code>composer install
+</code></pre>
+
+
+<h2>Configuración</h2>
+<p>En el repositorio hay un archivo para hacer la base de datos utilizada, sera necesario actualizar el archivo /config/db-php con sus respectivas credenciales</p>
+</code></pre>
+
+<p>Asegúrate de configurar tu conexión a la base de datos y cualquier otra variable de entorno requerida en el archivo</p>
+
+<pre><code>cd nombre-de-carpeta-proyecto
+composer install
+</code></pre>
+
+
+<h2>Ejecución</h2>
+<p>Opción 1</p>
+<p>Para iniciar el servidor de desarrollo, ejecuta:</p>
+<p>Si estas usando PhpMyAdmin puedes bajar el repositorio directamente en la carpeta htdocs para que funcione una vez instaladas las dependencias </p>
+
+<p>El proyecto ahora debería estar ejecutándose en <a href="http://localhost:8080/web/junghanns-todolist">http://localhost:8080/web/junghanns-todolist</a>.</p>
+
+<p>Opción 2</p>
+
+<p>Para iniciar el servidor de desarrollo, ejecuta:</p>
+
+<pre><code>php yii serve --port=8080
+</code></pre>
+
+<p>El proyecto ahora debería estar ejecutándose en <a href="http://localhost:8080/web/junghanns-todolist">http://localhost:8080/web/junghanns-todolist</a>.</p>
+
+
+
+
+
+<div>
+    <p><strong>Objetivo:</strong></p>
+    <p>Desarrolla un programa con Yii 1.0 o superior (o similar) de tu elección que implemente un sistema simple de gestión de tareas. El programa debe permitir al usuario realizar las siguientes operaciones:</p>
+    <ol>
+        <li>Agregar una nueva tarea</li>
+        <li>Ver todas las tareas existentes.</li>
+        <li>Marcar una tarea como completada.</li>
+        <li>Eliminar una tarea.</li>
+        <li>Salir del programa.</li>
+    </ol>
+    <p><strong>Requisitos:</strong></p>
+    <ul>
+        <li>El programa debe estar bien estructurado y comentado.</li>
+        <li>Utiliza buenas prácticas de programación.</li>
+        <li>Implementa la gestión de tareas utilizando una estructura de datos adecuada.</li>
+        <li>Siempre ten en cuenta la experiencia del usuario.</li>
+        <li>Asegúrate de que el programa maneje casos de error de manera adecuada.</li>
+        <li>Da un valor agregado al requerimiento.</li>
+    </ul>
+    <p><strong>Entrega:</strong></p>
+    <p>Envía el código fuente del programa junto con instrucciones claras sobre cómo compilar/ejecutar el programa.</p>
+</div>
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
