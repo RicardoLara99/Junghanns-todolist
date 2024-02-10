@@ -1,2 +1,0 @@
-# Junghanns-todolist
- technical interview
